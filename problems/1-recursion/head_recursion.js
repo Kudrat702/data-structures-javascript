@@ -6,6 +6,6 @@ function fun(n){
 }
 
 let a = 3;
-console.log(fun(a));
+fun(a);
 
 // output 1 2 3 

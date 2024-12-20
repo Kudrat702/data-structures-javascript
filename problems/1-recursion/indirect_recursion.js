@@ -16,7 +16,7 @@ let a = 20;
 console.log(funA(a));
 
 /*
-Output:
+Output:  
 20
 19
 9.5
