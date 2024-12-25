@@ -11,12 +11,14 @@ console.log(fibSeries(n));
 
 
 /* 
-n=7
-fib = fib(n-2)+fib(n-1)
-    = fib(6-1)+fib(6-2)
-    =5+4
-    = 9
-*/
+The Fibonacci sequence is defined as:
+fib(n)=fib(n−1)+fib(n−2)
+For n=5, the Fibonacci sequence (starting from fib(0)=0 and fib(1)=1 is:
+fib(0)=0, fib(1)=1, fib(2)=1, fib(3)=2, fib(4)=3, fib(5)=5
+
+The correct computation is:
+fib(5)=fib(4)+fib(3)=3+2=5
+
 /*
 function fibS(n){
     if(n<=1){
@@ -33,7 +35,7 @@ function fibS(n){
     }
 }
 let n = 7;
-let f = new Array(n + 1).fill(-1); /// Initialize the memoization array with -1
+let f = new Array(n + 1).fill(-1); // Initialize the memoization array with -1
 console.log(fibS(n));
 //output = 13
 */
