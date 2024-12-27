@@ -40,3 +40,16 @@ const b = "Painting";
 compareStringsB(a, b);
 // output:
 // Strings are Not Same
+
+/* 
+
+const a = "Painter";
+const b = "Painter";
+
+const a = "Painter";
+const b = "Paintar";
+
+const a = "Painter";
+const b = "Painting";
+
+*/
